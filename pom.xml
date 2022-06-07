@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.pie.tools</groupId>
+    <artifactId>speak</artifactId>
+    <version>1.0-dev</version>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.83</version>
+        </dependency>
+
+
+<!--        &lt;!&ndash; https://mvnrepository.com/artifact/com.harium.hci/espeak &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>com.harium.hci</groupId>-->
+<!--            <artifactId>espeak</artifactId>-->
+<!--            <version>1.0.3</version>-->
+<!--        </dependency>-->
+
+        <!-- https://mvnrepository.com/artifact/com.alphacephei/vosk -->
+        <dependency>
+            <groupId>com.alphacephei</groupId>
+            <artifactId>vosk</artifactId>
+            <version>0.3.38</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.mobicents.external.freetts/freetts -->
+        <dependency>
+            <groupId>org.mobicents.external.freetts</groupId>
+            <artifactId>freetts</artifactId>
+            <version>1.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>net.sf.sociaal</groupId>
+            <artifactId>freetts</artifactId>
+            <version>1.2.2</version>
+        </dependency>
+
+    </dependencies>
+
+</project>
